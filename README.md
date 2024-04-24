@@ -32,6 +32,9 @@ To clean and prepare the CSV data for SQL, I performed some data cleaning tasks:
 5.	Once I was done cleaning and preparing the data, I saved it to a new CSV file
 6.	I then imported the cleaned CSV data into the PgAdminSQL database.
 
+### ERD Diagram
+![ERD Diagram](https://github.com/olaseindesam/Analysis-Of-Renewable-Energy-Projects-In-Ontario-Using-SQL/assets/53903205/74f1ae60-cf30-4352-be09-3259849cf3b6)
+
 ### Data Analysis
 
 ~~~sql
@@ -54,6 +57,8 @@ These are the 3 main renewable energy project type carried out by the Ministry o
 ### Insight
 This gives a little understanding of the job done by the ministry of renewable energy resources, the number of applications they have approved or rejected over time.
 There are 196 Approved project, 2 refused, 8 projects applications were returned or withdrawn, 22 projects are undergoing screening for completeness and 4 projects are under technical review. This findings can be used to assay the organizations effectiveness in handling projects  when comparing the present year to the previous.                  
+
+![Pie chart](https://github.com/olaseindesam/Analysis-Of-Renewable-Energy-Projects-In-Ontario-Using-SQL/assets/53903205/e94fc150-df18-4313-b871-f12a9c9876ae)
 
  ~~~sql
 select project_name, project_type from project
